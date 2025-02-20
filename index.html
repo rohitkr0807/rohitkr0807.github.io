@@ -1,50 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  <!-- existing navigation -->
-  <nav>
-    <ul>
-      <li><a href="mailto:rohitkr0807@gmail.com">Contact Me</a></li>
-      <li><a href="https://github.com/rohitkr0807">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/iitrrohit">LinkedIn</a></li>
-      <li><a href="Resume.pdf" download>Download Resume</a></li>
-    </ul>
-  </nav>
-  <!-- existing navigation ends -->
+    <nav>
+        <div class="logo">Rohit Kumar</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <!-- Add the new content -->
-  <section class="profile">
-    <h1>Hi there! 👋 I'm Rohit</h1>
-    <p>A passionate software developer exploring the world of web development and machine learning. Currently learning React and diving into the fascinating realm of AI.</p>
+    <section id="about">
+        <img src="https://avatars.githubusercontent.com/u/77007456?v=4" alt="Rohit Kumar">
+        <h2>About Me</h2>
+        <p>I am a passionate software developer with a focus on web technologies. I enjoy building creative and user-friendly applications.</p>
+    </section>
 
-    <h2>About Me</h2>
-    <p>Results-driven Software Engineer with over 6 years of experience in leading the design, development, and optimization of high-performance systems. Proven expertise in transitioning from monolithic to microservices architecture, enhancing product efficiency, and ensuring data integrity. Demonstrated ability in collaborating with cross-functional teams to deliver tailored solutions while mentoring junior developers. Skilled in a wide range of technologies, with a focus on API development, micro-services architecture, and system performance optimization.</p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Description of Project 1. This project involved...</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.  A collaborative effort to...</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.  Focused on performance and scalability...</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
 
-    <h2>What I'm Working On</h2>
-    <ul>
-      <li><strong>Personal Portfolio:</strong> Building a portfolio website to showcase my projects and skills (using React).</li>
-      <li><strong>Open Source Contributions:</strong> Actively contributing to open-source projects.</li>
-    </ul>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><i class="fab fa-html5"></i> HTML5</li>
+            <li><i class="fab fa-css3-alt"></i> CSS3</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><i class="fab fa-node-js"></i> Node.js</li>
+            <li><i class="fab fa-git"></i> Git</li>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fas fa-database"></i> SQL</li>
+        </ul>
+    </section>
 
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Languages:</strong> JavaScript, Java, C++, C, SQL</li>
-      <li><strong>Frameworks/Libraries:</strong> Node.js, PostgreSQL, Redis, RabbitMQ, Elasticsearch, Kibana, MongoDB, Apache Kafka</li>
-      <li><strong>Tools:</strong> Git, Docker, AWS, Jenkins, Kubernetes</li>
-    </ul>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch!</p>
+        <ul class="social-links">
+            <li><a href="https://github.com/rohitkr0807" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="mailto:your_email@example.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </section>
 
-    <h2>Connect with Me</h2>
-    <ul>
-      <li><a href="mailto:rohitkr0807@gmail.com">Contact Me</a></li>
-      <li><a href="https://github.com/rohitkr0807">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/iitrrohit">LinkedIn</a></li>
-      <li><a href="Resume.pdf" download>Download Resume</a></li>
-    </ul>
-  </section>
+    <footer>
+        <p>© 2024 Rohit Kumar</p>
+    </footer>
+
 </body>
 </html>
